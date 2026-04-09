@@ -36,6 +36,3 @@ desktop.ini
 *.local
 .env
 .env.*
-
-# Nested git
-mcp-manager/.git
