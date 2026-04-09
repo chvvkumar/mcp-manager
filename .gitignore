@@ -4,8 +4,8 @@ node_modules/
 # Build outputs
 dist/
 dist-ssr/
-mcp-manager/src-tauri/target/
-mcp-manager/src-tauri/gen/schemas
+src-tauri/target/
+src-tauri/gen/schemas
 
 # Logs
 logs/
@@ -14,9 +14,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
 # IDE / Editor
 .vscode/
+!.vscode/extensions.json
 .idea/
 *.suo
 *.ntvs*
